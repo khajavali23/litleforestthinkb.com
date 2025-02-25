@@ -5812,7 +5812,7 @@ button.close {
     width: 200px;
     text-align: center;
     background: #80b435;
-    line-height: 45px;
+    
     font-size: 18px;
     color: #FFF;
     display: inline-block;
@@ -6045,7 +6045,7 @@ button.close {
     .banner-blog .img_banner ul {
       background: transparent; }
       .banner-blog .img_banner ul li.active a {
-        color: #7fb441; }
+         }
       .banner-blog .img_banner ul li:first-child:before {
         content: none; }
       .banner-blog .img_banner ul li:before {
@@ -7315,7 +7315,7 @@ button.close {
   position: relative; }
   @media (min-width: 1200px) {
     .testimonial .testimonials-body {
-      margin: 0 0px; } }
+      margin: 100px 0px; } }
 
 .testimonial .bg-testimonials {
   background: url(../images/bg/bg_testimonial.jpg) no-repeat;
@@ -10258,7 +10258,7 @@ li {
         color: #80b435; }
   .feauture-box .box-iteam {
     padding: 0 15px;
-    margin: 39px 0 35px; }
+    margin: 60px 0 60px; }
     @media (min-width: 992px) {
       .feauture-box .box-iteam {
         border-right: 1px solid #e5e5e5; } }
@@ -10269,7 +10269,9 @@ li {
       font-size: 12px;
       opacity: 0.6;
       letter-spacing: 1px;
-      font-weight: 500; }
+      font-weight: 500;
+      color: black;
+     }
 
 .contact-v2 {
   background: #ffd5c3;
@@ -11755,7 +11757,7 @@ li {
       .page-shop .products .wrap-box-1 .btn-product .wrap-btn span {
         padding: 2px 28px; }
     .page-shop .products .wrap-box-1 .content-item {
-      padding: 15px 15px 5px; } }
+      padding: 25px 10px 0px } }
   @media (max-width: 600px) {
     .page-shop .products .row {
       margin: 0 -30px; } }
@@ -12410,8 +12412,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  text-align: center;
 }
 .footer-links ul {
   list-style: none;
@@ -12454,6 +12454,15 @@ footer {
   font-size: 16px;
   line-height: 48px;
 }
+.image-url{
+  background: url(../images/banner/Background-Pattern.jpg);
+}
+.sagra-img{
+  display: flex;
+  justify-content: center;
+}
+
+
 @media screen and (max-width: 500px) {
   .hero__banner h1{
     font-size: 30px;
@@ -12573,4 +12582,105 @@ footer {
 .navbar-nav li a:hover::after {
   width: 100%;
   left: 0;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row !important;
+}
+
+
+
+
+/* This is a CSS comment  mobile-version*/
+
+
+@media (max-width: 500px) {
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.btn-web .btn-contact {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-copyright {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 18px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.footer-bottom {
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+  
 }

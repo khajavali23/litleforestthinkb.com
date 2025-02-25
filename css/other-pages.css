@@ -2141,9 +2141,11 @@ ul.sit-map-ul li.site-map-li .site-main-title ul.site-sub-link li.site-title a::
     position: relative;
     margin: 15px 0px 0px;
     padding: 0px 0px 0px 15px;
+    font-size: 18px;
 }
 .terms-banner-rules .rules-wrap ul.terms-ul li.terms-li:first-child {
     margin: 0px;
+    font-size: 18px;
 }
 .terms-banner-rules .rules-wrap ul.terms-ul li.terms-li::before {
     content: "";
@@ -2202,12 +2204,13 @@ ul.sit-map-ul li.site-map-li .site-main-title ul.site-sub-link li.site-title a::
 
 /* condition text content css */
 .temrs-condition .t-condition-block ul.condition-ul li h6 {
-    font-size: 18px;
+    font-size: 24px;
 }
 .temrs-condition .t-condition-block ul.condition-ul li p {
     position: relative;
     margin: 16px 0px 0px;
     padding: 0px 0px 0px 15px;
+    font-size: 18px;
 }
 .temrs-condition .t-condition-block ul.condition-ul li p::before {
     content: "";
@@ -2314,6 +2317,7 @@ ul.sit-map-ul li.site-map-li .site-main-title ul.site-sub-link li.site-title a::
 .privacy-policy .terms-banner-rules .rules-wrap ul.terms-ul li.terms-li p {
     position: relative;
     padding: 0px 0px 0px 15px;
+    font-size: 18px;
 }
 .privacy-policy .terms-banner-rules .rules-wrap ul.terms-ul li.terms-li p::before {
     content: "";
@@ -2445,7 +2449,7 @@ ul.sit-map-ul li.site-map-li .site-main-title ul.site-sub-link li.site-title a::
     background-color: var(--heading-font-color);
 }
 .paymen-policy-wrap .pay-text ul.pay-text-ul li p {
-    font-size: 16px;
+    font-size: 18px;
 }
 @media (max-width: 1199px) {
     .paymen-policy-wrap .pay-text ul.pay-text-ul li p {
@@ -2473,11 +2477,12 @@ ul.sit-map-ul li.site-map-li .site-main-title ul.site-sub-link li.site-title a::
 
 /* method content css */
 .method-wrap ul.method-ul li.method-li h6 {
-    font-size: 18px;
+    font-size: 24px;
     margin: 23px 0px 0px;
 }
 .method-wrap ul.method-ul li.method-li p {
     margin: 6px 0px 0px;
+    font-size: 18px;
 }
 @media (max-width: 1199px) {
     .method-wrap ul.method-ul li.method-li {
