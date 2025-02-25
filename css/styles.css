@@ -5810,7 +5810,6 @@ button.close {
   margin-top: 30px; }
   .btn-web a {
     width: 200px;
-    height: 50px;
     text-align: center;
     background: #80b435;
     line-height: 45px;
@@ -7504,7 +7503,7 @@ button.close {
           background: url("../images/icon/icon_quickview.png") no-repeat; }
   .wrap-box-1 .content-item {
     position: absolute;
-    padding: 15px 30px 25px;
+    padding: 18px 30px 25px;
     left: 0;
     bottom: -5px;
     width: 100%;
@@ -8514,10 +8513,9 @@ li {
     margin-top: 30px; } }
 
 .footer .footer-top {
-  background: #f7f7f7; }
+  }
   @media (min-width: 480px) {
-    .footer .footer-top {
-      margin: 0 30px; } }
+   }
   @media (max-width: 480px) {
     .footer .footer-top {
       margin: 0 15px; } }
@@ -8583,7 +8581,7 @@ li {
     .footer .wrap-copyright {
       flex-direction: column; } }
   .footer .wrap-copyright .copyright a {
-    color: #0072bc;
+    color: #84c441;
     margin-left: 5px; }
     .footer .wrap-copyright .copyright a:hover {
       color: #80b435; }
@@ -8592,6 +8590,7 @@ li {
     .footer .wrap-copyright .countries {
       display: inline-block; 
       font-size: 18px;
+      color: black;
     }
      }
   @media (max-width: 480px) {
@@ -12319,21 +12318,32 @@ li {
   min-height: 80vh;
   position: relative;
   background-position: center;
+  background-size: contain;
 }
 .footer{
   background: url(../images/banner/Background-Pattern.jpg);
+  background-size: contain;
 }
 .kive-plant{
   background: url(../images/banner/Background-Pattern.jpg);
+  background-size: contain;
 }
 .hero__banner::after{
   content: '';
-  background: #0000007a;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    background: #0000007a;
+    /* position: absolute; */
+    /* top: 0; */
+    left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    content: '';
+    background: #00000029;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: 11; */
+    top: 0px;
+    left: 0px;
 }
 .hero__banner .container{
   display: flex;
@@ -12350,9 +12360,10 @@ li {
 }
 .hero__banner p{
   color: white;
-  font-size: 20px;
+  color: white;
+  font-size: 25px;
   margin-bottom: 14px;
-  font-weight: 200;
+  font-weight: 300;
 }
 .hero__banner button{
   padding: 13px 25px;
@@ -12368,7 +12379,63 @@ li {
 .video_section{
   background: url('../images/banner/1.jpg');
   padding: 100px 0px;
-  margin: 50px 0px;
+  margin: 50px 75px 0px 75px;
+  border-radius: 0px 50px 0px 0px;
+}
+footer {
+  background: #1a1a1a url('background-image.jpg') no-repeat center center/cover;
+  color: #000;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.btn-contact {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #28a745;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn-contact:hover {
+  background: #218838;
+}
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+.footer-links a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.footer-links a:hover {
+  color: #28a745;
+}
+.social-icons a {
+  color: #000;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #28a745;
 }
 .video_section h6{
   font-size: 40px;
@@ -12468,4 +12535,42 @@ li {
     width: 100%;
   }
 
+}
+.location{
+  color: black;
+}
+.litele{
+  color: #c0e19e;
+}
+.litele:hover {
+  color: #28a745; /* Changes text color on hover */
+  background-color: #0a4423; /* Changes background color on hover */
+  transition: 0.3s ease-in-out; /* Smooth transition effect */
+}
+.navbar-nav li a {
+  position: relative;
+  text-decoration: none;
+  color: #000; /* Default text color */
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #28a745; /* Underline color */
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  color: #28a745; /* Change text color on hover */
+}
+
+.navbar-nav li a:hover::after {
+  width: 100%;
+  left: 0;
 }
